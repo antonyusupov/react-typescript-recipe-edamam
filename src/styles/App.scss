@@ -1,0 +1,17 @@
+@import 'styleVariables';
+
+#root {
+    background-color: $dark-blue;
+    color: $white;
+    .App {
+        padding: 2rem 5rem;
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 770px) {
+            padding: 1.5rem 2.5rem;
+        }
+        @media screen and (max-width: 770px) {
+            padding: .5rem 1rem;
+        }
+    }
+  }

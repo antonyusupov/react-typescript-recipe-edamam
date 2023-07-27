@@ -1,0 +1,14 @@
+.cards-display-main_container {
+  width: 100%;
+  margin: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 550px) {
+  .cards-display-main_container {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=cardsDisplay.css.map */

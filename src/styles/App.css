@@ -1,0 +1,19 @@
+#root {
+  background-color: #030407;
+  color: #FFFFFF;
+}
+#root .App {
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 770px) {
+  #root .App {
+    padding: 1.5rem 2.5rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  #root .App {
+    padding: 0.5rem 1rem;
+  }
+}/*# sourceMappingURL=App.css.map */
